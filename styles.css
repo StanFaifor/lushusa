@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -23,15 +23,82 @@ body {
     height: 700px;
 }
 .bothPics {
-    display: flex;
+    padding: 30px;
     text-align: center;
-    justify-content: center;  
-    padding: 50px;
 }
 .pic1 {
-  width: 47%;
+    width: 50%;
+    float: left;
 }
-.picText {
+.pic2 {
+    width: 50%;
+    float: right;
+}
+.bothTexts {
+    padding-left: 110px;
+    line-height: 1.7;
+}
+.pic1Text {
+    width: 50%;
+    float: left;
+}
+.pic1Text > h3 {
+    font-size: 40px;
+}
+.pic1Text > p {
+    font-size: 20px;
+}
+.pic2Text {
+    width: 50%;
+    float: right;
+}
+.pic2Text > h3 {
+    font-size: 40px;
+}
+.pic2Text > p {
+    font-size: 20px;
+}
+.button1 {
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.button2 {
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 40px;
+}
+.section2 {
+    box-sizing: border-box;
+    background-color: gray;
+    width: 100%;
+    height: 300px;
+}
+.fourPictures {
+    text-align: center;
+    padding: 20px;
+}
+.picsSection2 {
+    width: 20%;
+    padding: 20px;
+}
+.textSection2 {
+    background-color: antiquewhite;
     text-align: center;
 }
-
+.textSection2 > p  {
+    text-align: center;
+    display: inline;
+    padding-left: 200px;
+    background-color: aqua;
+}
