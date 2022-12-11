@@ -2,20 +2,52 @@
     margin: 0;
     padding: 0;
 }
-.navigation-bar {
-    position: relative;
-    background-color: black;
-    width: 100%;
-    height: 100px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+
+/* Navigation bar */
+
+.navigationBar {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.header {
-    box-sizing: border-box;
+.lushLogo {
     color: white;
-    text-align: center;
+    font-size: 40px;
+    padding-left: 8%;
+    margin: 2%;
 }
+.signInSection {
+    display: flex;
+    justify-content: flex-start;
+    width: 200px;
+    height: 70px;
+    background-color: blue;
+}
+.signIn > i {
+    color: white;
+}
+.signInText {
+    color: white;
+    text-decoration: none;
+}
+.navbarSignInLink, .navbarRegisterLink {
+    text-decoration: none;
+    color: white;
+}
+.navbarIcons a {
+    color: white;
+}
+.navbarIcons {
+    padding-right: 100px;
+}
+
+
+/* Section 1 */
+
 .section1 {
     box-sizing: border-box;
     background-image: url(https://img.freepik.com/premium-photo/pink-soap-bubbles-background_36860-283.jpg?w=2000);
@@ -80,25 +112,755 @@
 }
 .section2 {
     box-sizing: border-box;
-    background-color: gray;
     width: 100%;
-    height: 300px;
+    height: 245px;
+    background-color: #FFF7F8;
 }
 .fourPictures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 .picsSection2 {
-    width: 20%;
-    padding: 20px;
+    width: 270px;
+    padding: 20px 20px 0 20px;
 }
-.textSection2 {
-    background-color: antiquewhite;
+.picsSection2Text {
+    font-size: 24px;
+}
+
+/* Section 3 */
+
+.section3 {
+    background-color: #FFF7F8;
+}
+.section3Header {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.section3Header > p {
+    font-size: 24px;
+}
+.allFourProducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3Product1, .section3Product4 {
+    width: 21%;
+    height: 500px;
+    margin-left: 10px;
+    margin: 20px;
+}
+.section3Product2, .section3Product3 {
+    width: 21%;
+    height: 480px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+/* Section 3 Product 1 */
+
+.section3Product1 > i {
+    padding-top: 20px;
+    float: left;
+}
+.candyCane {
+    width: 20px;
+}
+.christmas > p {
+    font-size: 13px;
+}
+.christmas {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color: lightgray;
+}
+.christmasDiv {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    float: right;
+}
+.christmasArt {
+    width: 70%;
+    padding: 20% 5% 0% 5%;
+}
+.reviewStars {
     text-align: center;
 }
-.textSection2 > p  {
+.giftSet {
+    opacity: 0.5;
+}
+.theArtOfChristmasMagic {
+    width: 200px;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Bradley Hand";
+}
+.textDescription {
     text-align: center;
-    display: inline;
-    padding-left: 200px;
+}
+.price {
+    text-align: center;
+    margin-top: 10%;
+}
+.addToCartBttn > button {
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Section 2 Product 2 */
+
+.section3Product2 > i {
+    padding-top: 20px;
+    float: left;
+}
+.candyCane {
+    width: 20px;
+}
+.christmas > p {
+    font-size: 13px;
+}
+.christmas {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color: lightgray;
+}
+.christmasDiv {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    float: right;
+}
+.sleepyBearImg {
+    width: 70%;
+    padding: 20% 5% 0% 5%;
+}
+.reviewStars {
+    text-align: center;
+}
+.giftSet {
+    opacity: 0.5;
+}
+.sleepyBear {
+    width: 200px;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Bradley Hand";
+}
+.textDescription {
+    text-align: center;
+}
+.price {
+    text-align: center;
+    margin-top: 10%;
+}
+.addToCartBttn > button {
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Section 2 Product 3 */
+
+.section3Product3 > i {
+    padding-top: 20px;
+    float: left;
+}
+.candyCane {
+    width: 20px;
+}
+.christmas > p {
+    font-size: 13px;
+}
+.christmas {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color: lightgray;
+}
+.christmasDiv {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    float: right;
+}
+.christmasCandyBoxImg {
+    width: 70%;
+    padding: 20% 5% 0% 5%;
+}
+.reviewStars {
+    text-align: center;
+}
+.giftSet {
+    opacity: 0.5;
+}
+.christmasCandyBox {
+    width: 200px;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Bradley Hand";
+}
+.textDescription {
+    text-align: center;
+}
+.price {
+    text-align: center;
+    margin-top: 10%;
+}
+.addToCartBttn > button {
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Section 2 Product 4 */
+
+.section3Product4 > i {
+    padding-top: 20px;
+    float: left;
+}
+.candyCane {
+    width: 20px;
+}
+.christmas > p {
+    font-size: 13px;
+}
+.christmas {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color: lightgray;
+}
+.christmasDiv {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    float: right;
+}
+.christmasBathtimeFavoritesImg {
+    width: 70%;
+    padding: 20% 5% 0% 5%;
+}
+.reviewStars {
+    text-align: center;
+}
+.giftSet {
+    opacity: 0.5;
+}
+.christmasBathtimeFavorites {
+    width: 200px;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Bradley Hand";
+}
+.textDescription {
+    text-align: center;
+}
+.price {
+    text-align: center;
+    margin-top: 10%;
+}
+.addToCartBttn > button {
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Section 4 */
+
+.section4 {
+    background-image: url(https://img.freepik.com/premium-photo/pink-soap-bubbles-background_36860-283.jpg?w=2000);
+    width: 100%;
+    height: 700px;
+}
+
+/* Section 4 Image 1 */
+
+.section4Img1 {
+    width: 39.6%;
+    height: 597px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 9%;
+}
+.section4Img1Text > h3 {
+    font-size: 35px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.section4Img1Text > p {
+    font-size: 25px;
+    padding-bottom: 3%;
+}
+.shopSnowFairyBttn > button {
+    box-sizing: border-box;
+    border: 0;
+    width: 40%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Section 4 Image 2 */
+
+.section4Img2 {
+    width: 39.6%;
+    height: 608px;
+    float: right;
+    margin-top: 3%;
+    margin-right: 9%;
+}
+.section4Img2Text > h3 {
+    font-size: 35px;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.section4Img2Text > p {
+    font-size: 25px;
+    padding-bottom: 3%;
+}
+.shopGiftGuideBttn > button {
+    box-sizing: border-box;
+    border: 0;
+    width: 40%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Section 5 */
+
+.section5 {
+    background-color: #fff7f8;
+    width: 100%;
+    height: 700px;
+}
+
+/* Section 5 Image 1 */
+
+.section5Img1 {
+    width: 39.6%;
+    height: 597px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 9%;
+}
+.section5Img1Text > h3 {
+    font-size: 35px;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.section5Img1Text > p {
+    font-size: 25px;
+    padding-bottom: 3%;
+}
+.readMoreBttn > button {
+    box-sizing: border-box;
+    border: 0;
+    width: 40%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Section 5 Image 2 */
+
+.section5Img2 {
+    width: 39.6%;
+    height: 608px;
+    float: right;
+    margin-top: 3%;
+    margin-right: 9%;
+}
+.section5Img2Text > h3 {
+    font-size: 35px;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.section5Img2Text > p {
+    font-size: 25px;
+    padding-bottom: 3%;
+}
+.readNowBttn > button {
+    box-sizing: border-box;
+    border: 0;
+    width: 40%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Section 6 */
+
+.section6 {
+    width: 100%;
+    height: 550px;
+    background-color: #f2d2bd;
+}
+.section6SlideShow > h3 {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 35px;
+}
+.slideShow {
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#slideShowContainer {
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: auto;
     background-color: aqua;
+}
+#slides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.slide img {
+    width: 50%;
+    height: 70%;
+    float: right;
+    margin: 7% 0 7% 0;
+}
+.slideText {
+    width: 30%;
+    height: 70%;
+    background-color: yellow;
+}
+.slideText h3 {
+    position: absolute;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.slideText p {
+    position: absolute;
+    text-align: center;
+    margin-top: 20px;
+}
+.slideText div {
+    position: absolute;
+    text-align: center;
+    margin-top: px;
+}
+
+/* Section 7 */
+
+.section7 {
+    background-color: #fff7f8;
+    width: 100%;
+    height: 700px;
+}
+.section7Product1, .section7Product2 {
+    width: 21%;
+    height: 500px;
+    margin: 20px;
+    float: right;
+}
+.section7Product1 {
+    margin-left: 4%;
+}
+.section7Product2 {
+    margin-left: 2%;
+}
+
+/* Section 7 Image 1 */
+
+.section7Img1 {
+    width: 39.6%;
+    height: 608px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 9%;
+}
+.section7Img1Text > h3 {
+    font-size: 35px;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.section7Img1Text > p {
+    font-size: 25px;
+    padding-bottom: 3%;
+}
+.shopCollectionBttn > button {
+    box-sizing: border-box;
+    border: 0;
+    width: 40%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Section 7 Product 1 */
+
+.section7Product1 > i {
+    padding-top: 20px;
+    float: left;
+}
+.limitedEdition > p {
+    font-size: 13px;
+}
+.limitedEdition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
+    background-color: lightgray;
+    float: right;
+}
+.limitedEditionDiv {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    float: right;
+}
+.lushAndLazy {
+    width: 70%;
+    padding: 20% 5% 0% 5%;
+}
+.reviewStars {
+    text-align: center;
+}
+.bodySpray {
+    opacity: 0.5;
+}
+.lushAndLazyText {
+    width: 200px;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Bradley Hand";
+}
+.textDescription {
+    text-align: center;
+}
+.price {
+    text-align: center;
+    margin-top: 10%;
+}
+.addToCartBttn > button {
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Section 7 Product 2 */
+
+.section7Product2 > i {
+    padding-top: 20px;
+    float: left;
+}
+.limitedEdition > p {
+    font-size: 13px;
+}
+.limitedEdition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
+    background-color: lightgray;
+    float: right;
+}
+.limitedEditionDiv {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    float: right;
+}
+.lushAndLazyBox {
+    width: 70%;
+    padding: 20% 5% 0% 5%;
+}
+.reviewStars {
+    text-align: center;
+}
+.showder {
+    opacity: 0.5;
+}
+.intergalactic {
+    width: 200px;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Bradley Hand";
+}
+.textDescription {
+    text-align: center;
+}
+.price {
+    text-align: center;
+    margin-top: 10%;
+}
+.addToCartBttn > button {
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Section 8 */
+
+.section8 {
+    width: 100%;
+    height: 300px;
+    background-color: #FFF7F8;
+    box-sizing: border-box;
+    border: black solid;
+}
+.section8 p {
+    text-align: center;
+}
+
+/* Section 9 */
+
+.section9 {
+    width: 100%;
+    height: 700px;
+    background-color: #d8bfd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section9InnerDiv {
+    width: 80%;
+    height: 60%;
+}
+.section9Img {
+    float: right;
+    width: 50%;
+
+}
+.section9Text {
+    width: 50%;
+    height: 50%;
+    padding: 3%;
+}
+.section9Text > h3 {
+    font-size: 30px;
+    padding-top: 10px;
+}
+.buildYourBathRoutineBttn > button {
+    box-sizing: border-box;
+    border: 0;
+    width: 30%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+.buildYourBathRoutineBttn {
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+/* Section 10 */
+
+.section10 {
+    width: 100%;
+    height: 450px;
+    background-color: #fff7f8;
+}
+.waysToShopText {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 25px;
+}
+.waysToShopPics {
+    margin-left: 5%;
+}
+.section10Img {
+    width: 23%;
+}
+
+/* Section 11 */ 
+
+.section11 {
+    width: 100%;
+    height: 300px;
+    background-color: #FFF7F8;
+    box-sizing: border-box;
+    border: black solid;
+}
+.section11 p {
+    text-align: center;
 }
