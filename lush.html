@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="lush.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <div class="subHeaderTop">
+      <div class="orderContainer">
+        <i class="fa-solid fa-box"></i>
+        <p>Track Order</p>
+      </div>
+      <i class="fa-solid fa-location-dot"></i>
+      <div class="locationAndTimeSubContainer" onclick="togglePopDownContainer()">
+        <p>Fashion Valley</p>
+        <i class="fa-solid fa-angle-down"></i>
+        <p>10:00AM to 09:00PM</p>
+      </div>
+      <div class="popDownContainer" id="popDownContainer" style="display:none;">
+        <div class="popDownSub-TopContainer">
+         <p>My Pick-Up Store</p>
+         <i class="fa-solid fa-xmark" id="popDownContainer" onclick="hidePopDownContainer()"></i>
+        </div>
+        <div class="popDownMainContainer">
+          <div class="popDownAddressBox"> Fashion Valley
+            <p>7007 Friears Rd</p>
+            <p>San Diego, CA 92108</p>
+            <div class="smaller">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>299 mi</p>
+            </div>
+            <div class="smaller text-black">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Get Directions</p>
+            </div>
+            <div class="smaller text-black">
+              <i class="fa-solid fa-phone"></i>
+              <p>619-688-3040</p>
+            </div>
+            <div class="workingHoursBox"> Store Hours
+              <p>Monday 10:00AM to 09:00PM</p>
+              <p>Tuesday 10:00AM to 09:00PM</p>
+              <p>Wednesday 10:00AM to 09:00PM</p>
+              <p>Thursday 10:00AM to 09:00PM</p>
+              <p>Friday 10:00AM to 09:00PM</p>
+              <p>Saturday 10:00AM to 09:00PM</p>
+              <p>Sunday 10:00AM to 07:00PM</p>
+            </div>
+            <div class="storeDetailsBox text-black">
+              <p>View Store Details</p>
+            </div>
+            <button class="black-white">
+              CHANGE STORE
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="main">
+    <script src="index.js"></script>
+  </body>
+</html>
